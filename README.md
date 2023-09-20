@@ -1,1 +1,1 @@
-# crowdfunder-client
+Starter project

@@ -1,0 +1,117 @@
+.product {
+  margin-top: 50px;
+}
+.product .boxItems {
+  transition: 0.5s;
+  display: flex;
+}
+.product .boxItems:hover {
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+.product img {
+  width: 105px;
+  height: 105px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.product .details {
+  width: 100%;
+}
+.product .details h3 {
+  font-size: 17px;
+}
+.product .details p {
+  margin: 10px 0;
+}
+.product button {
+  font-size: 1rem;
+  margin-top: 15px;
+  float: right;
+}
+.product-images {
+  height: calc(100vh - 120px);
+  background-color: rgb(220, 220, 220);
+}
+.img-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+  background-color: rgb(61, 61, 60);
+}
+.img-wrapper div {
+  width: 30%;
+}
+.img-wrapper div img {
+  max-width: 95%;
+  border-radius: 0.5rem;
+}
+.img-wrapper div.img-3 {
+  display: grid;
+  row-gap: 4px;
+  column-gap: 4px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50%;
+}
+h4,
+h5 {
+  color: rgb(52, 51, 51);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.project-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 4%;
+  width: 100%;
+  color: rgb(52, 51, 51);
+}
+.left-container p {
+  color: rgb(52, 51, 51);
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.right-container {
+  min-width: 25%;
+}
+.fund-details {
+  margin-top: 10%;
+  height: 300px;
+  padding: 2rem;
+  background-color: rgb(54, 49, 42);
+  margin-right: 4%;
+  border-radius: 0.5rem;
+  position: relative;
+  color: white;
+}
+.fund-amount {
+  color: yellow;
+  font-size: 1.1rem;
+}
+.pay-now {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%);
+}
+#thumbnail {
+  max-width: 100%;
+  max-height: 50vh;
+}
+.status-text {
+  font-size: 1.25rem;
+  color: green;
+}
+.home-page-title {
+  text-align: center;
+}
+.project-desc {
+  max-height: 95px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

@@ -1,0 +1,44 @@
+/* styles.css (or any file name you prefer) */
+
+/* Center the content vertically and horizontally */
+.text-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  /* Style the payment form container */
+  .form-container {
+    width: 300px; /* Adjust as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the project thumbnail */
+  .project-thumbnail {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the payment button */
+  .payment-button {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Style the loader spinner */
+  .spinner {
+    margin-right: 10px;
+  }
+  
+  /* Style the "Payment Done" message */
+  .payment-done {
+    color: #28a745; /* Green color */
+  }
+  
